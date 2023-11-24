@@ -175,6 +175,7 @@ public class Registrationform extends JFrame {
 		JButton btnclose = new JButton("Close");
 		btnclose.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				System.exit(0);
 			}
 		});
 		btnclose.setBounds(317, 227, 89, 23);
